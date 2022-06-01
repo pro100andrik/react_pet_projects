@@ -73,7 +73,7 @@ var MainContainer = function (_React$Component) {
     };
 
     _this.state = {
-      typeTime: { pomodoro: 25, shortBreak: 1, longBreak: 15 },
+      typeTime: { pomodoro: 25, shortBreak: 5, longBreak: 15 },
       type: 'pomodoro',
       isActive: false,
       secondsLeft: 1500,
