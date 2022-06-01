@@ -1,0 +1,171 @@
+body {
+  background-color: pink;
+  margin-top: 0px;
+  font-family: monospace;
+}
+
+.mainContainer {
+  background-color: white;
+  display: block;
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid rebeccapurple;
+  border-radius: 15px;
+  padding: 15px;
+  width: 60%;
+  min-width: 500px;
+  max-width: 1000px;
+
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+  transform: translate(-50%, -50%);
+
+}
+
+.caption {
+  font-size: 200%;
+  font-weight: bold;
+  color: rebeccapurple;
+  text-align: center;
+  margin: 20px;
+}
+
+
+.input-span {
+  position: relative;
+}
+
+.input-text {
+  border: none;
+  -webkit-appearance: none;
+  -ms-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: #f2f2f2;
+  padding: 12px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border: 1px solid lightgrey;
+  width: 100%;
+  padding-left: 40px;
+  font-size: 14px;
+  font-family: monospace;
+}
+
+.input-text:focus{
+  outline: none;
+}
+
+.input-span::before {
+  content: "🔻";
+  position: absolute;
+  color: grey;
+  z-index: 999;
+  font-size: 100%;
+  padding: 10px;
+}
+
+
+ul {
+  padding-left: 0px;
+}
+
+li {
+  list-style: none;
+  position: relative;
+  padding: 3px;
+  background: #f2f2f2;
+  border: 1px solid lightgrey;
+  border-top: 0px;
+  font-size: 120%;
+}
+
+.checkbox {
+  margin: 3px;
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+
+
+}
+
+.text {
+  display: inline-block;
+  padding-bottom: 5px;
+  height: 100%;
+  position: relative;
+}
+
+li:last-child{
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.checked-element {
+  color: lightgrey;
+  text-decoration: line-through;
+}
+
+.close-button {
+  position: absolute;
+  right: 5px;
+  background: none;
+  border: none;
+  color: red;
+  margin-top: 3px;
+  font-size: 120%;
+  cursor: pointer;
+  top: 50%;
+  transform: translate(0%, -50%);
+}
+
+.close-button:focus{
+  outline: none;
+}
+
+.hiden {
+  display: none;
+}
+
+.controls {
+  position:relative;
+  height: 10px;
+
+}
+
+.items-counter {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translate(0%, -50%);
+}
+
+.visibility-buttons {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.remove-button {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translate(0%, -50%);
+}
+
+.credits {
+  position: relative;
+  text-align: center;
+  color: lightgrey;
+  margin: 20px;
+}
+
+.autor-name {
+  color: rebeccapurple;
+
+}
