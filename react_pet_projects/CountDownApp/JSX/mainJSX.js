@@ -7,7 +7,7 @@ class MainContainer extends React.Component {
     this.state = ({
       date: new Date(),
       renderInput: true,
-      event: "your's event",
+      event: "your event",
       showErrMessage: false
     })
   }
@@ -93,8 +93,7 @@ class InputField extends React.Component{
     return(
       <div>
         <div className='caption'>
-        When
-        <span className='event-name'><input type='text' placeholder="your's event name" onChange={this.handleTittleChange} /></span>
+        When <span className='event-name'><input type='text' placeholder="your event name" onChange={this.handleTittleChange} /></span>
         must happent? <br /> </div>
 
         {this.props.showErrMessage ? <ErrMessage /> : null}

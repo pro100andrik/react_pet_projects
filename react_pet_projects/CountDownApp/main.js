@@ -55,7 +55,7 @@ var MainContainer = function (_React$Component) {
     _this.state = {
       date: new Date(),
       renderInput: true,
-      event: "your's event",
+      event: "your event",
       showErrMessage: false
     };
     return _this;
@@ -119,11 +119,11 @@ var InputField = function (_React$Component2) {
         React.createElement(
           "div",
           { className: "caption" },
-          "When",
+          "When ",
           React.createElement(
             "span",
             { className: "event-name" },
-            React.createElement("input", { type: "text", placeholder: "your's event name", onChange: this.handleTittleChange })
+            React.createElement("input", { type: "text", placeholder: "your event name", onChange: this.handleTittleChange })
           ),
           "must happent? ",
           React.createElement("br", null),
